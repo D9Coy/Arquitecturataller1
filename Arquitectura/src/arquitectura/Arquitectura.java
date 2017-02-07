@@ -59,6 +59,15 @@ public class Arquitectura {
         return res;
     }
     
+    public int div(int a, int b){
+        int res =0;
+        while(a<b){
+            a=a-b;
+            res++;         
+        }
+        return res;
+    }
+    
 
     public static void main(String[] args) {
         Arquitectura a;
@@ -67,8 +76,8 @@ public class Arquitectura {
         //System.out.println(a.suma(3,3));
         //System.out.println(a.potencia(2, 3));
         //                       x k n
-        //System.out.println(a.pol(2,k,4));
-        System.out.println(a.fact(10));
+        System.out.println(a.pol(3,k,4));
+        //System.out.println(a.fact(10));
     }
     
 }
